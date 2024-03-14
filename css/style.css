@@ -1,0 +1,485 @@
+/* ---------- reset ---------- */
+html, body {
+	height: 100%;
+}
+
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a:link {
+  color: #000; 
+  text-decoration: none;
+}
+a:visited {
+  color: #000; 
+  text-decoration: none;
+}
+a:hover {
+  color: #000; 
+  text-decoration: none;
+}
+a:active {
+  color: #000; 
+  text-decoration: none;
+}
+
+
+
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Kolker Brush';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/KolkerBrush/KolkerBrush-Regular.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-family: "Cormorant";
+    scr: url("../fonts/Cormorant/Cormorant-Italic.ttf") format("truetype"),
+}
+
+@font-face {
+    font-family: "Cormorant";
+    scr: url("../fonts/Cormorant/Cormorant-LightItalic.ttf") format("truetype"),
+}
+
+@font-face {
+    font-family: "Cormorant";
+    scr: url("../fonts/Cormorant/Cormorant-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cormorant";
+    scr: url("../fonts/Cormorant/Cormorant-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cormorant";
+    scr: url("../fonts/Cormorant/Cormorant-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cormorant";
+    scr: url("../fonts/Cormorant/Cormorant-Bold.ttf") format("truetype");
+}
+
+
+
+
+h1 {
+	font-family: "Cormorant", serif;
+	font-style: italic;
+	font-size: 4vw;
+}
+
+p {
+	font-family: "Cormorant", serif;
+	font-size: 2.5vw;
+}
+
+
+ /* ---------- menu block ---------- */
+header {
+	height: 20%;
+	width: 100%;
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 20% auto;
+	column-gap: 15%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+header .logo {
+	display: flex;
+	margin-top: 1%;
+	margin-bottom: auto;
+	cursor: pointer;
+}
+
+header .menu {
+	display: flex;
+	margin-top: 1%;
+	margin-bottom: auto;
+}
+
+header a {
+	font-family: "Kolker Brush";
+	font-size: 3vw;
+	line-height: 2vw;
+	margin: auto 0;
+}
+
+header .logo .logo_text a {
+	font-family: "Kolker Brush";
+	font-size: 3vw;
+	line-height: 2vw;
+	margin: auto 0;
+}
+
+
+header img {
+	width: 120px;
+	height: 120px;
+    margin: 0; 
+    object-fit: cover;
+}
+
+header .menu a {
+	font-family: "Cormorant", serif;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 2vw;
+	margin: 3% auto auto 0;
+	cursor: pointer;
+}
+
+
+ /* ---------- intro block ---------- */
+ .intro {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100vh;
+}
+
+.text_side {
+	width: 50%;
+	max-width: 50%;
+	margin-left: 5%;
+}
+
+.intro .text_side h1 {
+	margin-top: 5%;
+	color: #D73018;
+}
+
+.intro .text_side p {
+	margin: 8%;
+}
+
+.img_side {
+    width: 50%;
+	max-width: 50%;
+    margin: 0; 
+    object-fit: cover;
+}
+
+li {
+	font-family: "Cormorant", serif;
+	font-size: 2.5vw;
+	margin: 8%;
+}
+
+
+ /* ---------- note block ---------- */
+.note {
+	background-color: #001F20;
+	padding: 50px;
+}
+
+.note p {
+	font-size: 2vw;
+	color: white;
+	font-style: italic;
+	font-weight: 600;
+	margin: 50px 100px;
+	line-height: 1.6em;
+}
+
+
+
+ /* ---------- third block ---------- */
+ .tea_sorts {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	width: 100%;
+	height: 100vh;
+ }
+
+ .tea_sorts .text_side h2 {
+	font-family: "Cormorant", serif;
+	font-weight: 600;
+	font-size: 2.5vw;
+}
+
+.tea_sorts .text_side p {
+	font-size: 1.5vw;
+	font-weight: 600;
+	color: #1D4B4D;
+	font-style: italic;
+}
+
+.tea_sorts .text_side table {
+	height: 90vh;
+	border-collapse: collapse;
+}
+
+td {
+   border-bottom: 1px solid grey;
+   padding-right: 40px;
+}
+
+.tea_sorts .text_side .circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+#crcl_1 {
+	background-color: #FFB6AB;
+}
+
+#crcl_2 {
+	background-color: #FF8775;
+}
+
+#crcl_3 {
+	background-color: #FF5F48;
+}
+
+#crcl_4 {
+	background-color: #D73018;
+}
+
+#crcl_5 {
+	background-color: #A21B08;
+}
+
+#crcl_6 {
+	background-color: #7C1203;
+}
+
+
+ /* ---------- tea countries block ---------- */
+.tea_countries_grid {
+ 	display: grid;
+ 	width: 100%;
+ 	grid-template-columns: 50% 50%;
+}
+
+.tea_countries h2 {
+	text-align: center;
+	font-size: 3vw;
+	font-style: italic;
+	line-height: 1.6em;
+	margin: 4% auto 4% auto;
+}
+
+.tea_countries_grid h1 {
+	font-size: 7vw;
+	font-style: normal;
+	margin: 0;
+	display: flex;
+	margin: auto 0;
+}
+
+
+ /* japan */
+.tea_countries_grid .japan {
+	display: grid;
+	grid-template-columns: 10% 90%;
+	grid-template-rows: auto auto;
+}
+
+.tea_countries_grid .japan h1 {
+	color: #005D61;
+	transform: rotate(-90deg);
+}
+
+.japan_h1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+ 	grid-row-end: 3;
+}
+
+.japan_p {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+
+	width: 90%;
+	margin: 0 auto; 
+}
+
+.japan_img {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+
+    width: 90%;
+	max-width: 90%;
+    margin: 0 auto; 
+    object-fit: cover;
+}
+
+
+/* india */
+.tea_countries_grid .india {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto auto auto;
+}
+
+.tea_countries_grid .india h1 {
+	color: #BD1700;
+	width: 90%;
+	max-width: 90%;
+    margin: 0 auto;
+}
+
+.tea_countries_grid .india p, img {
+    width: 90%;
+	max-width: 90%;
+    margin: 2% auto 2% auto;
+}
+
+
+/* turkey */
+.tea_countries_grid .turkey {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto auto auto;
+	margin-left: 10%;
+}
+
+.tea_countries_grid .turkey h1 {
+	color: #FF8775;
+	width: 90%;
+	max-width: 90%;
+    margin: 0 auto;
+}
+
+.tea_countries_grid .turkey p {
+    width: 90%;
+	max-width: 90%;
+    margin: 2% auto 2% auto;
+}
+
+.tea_countries_grid .turkey img {
+    width: 90%;
+	max-width: 90%;
+    margin: 2% auto 0 auto;
+}
+
+
+/* thailand */
+.tea_countries_grid .thailand {
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-template-rows: auto auto;
+}
+
+.tea_countries_grid .thailand h1 {
+	color: #6EB6AC;
+	transform: rotate(-90deg);
+
+	margin-bottom: 20%;
+	margin-top: auto;
+}
+
+.thailand_h1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+ 	grid-row-end: 2;
+}
+
+.thailand_p {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+
+	width: 90%;
+	margin: 0 auto; 
+}
+
+.thailand_img {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+
+    width: 90%;
+	max-width: 90%;
+    margin: 0 auto; 
+    object-fit: cover;
+}
+
+
+ /* ---------- tea art block ---------- */
+.tea_art {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100vh;
+}
+
+.tea_art .tea_art_poem {
+	margin: auto;
+}
+
+.tea_art .tea_art_poem .poet {
+	font-size: 1.6vw;
+	font-style: italic;
+	color: #D73018;
+}
+
+.tea_art .tea_art_poem .poet_link {
+	font-size: 1.6vw;
+}
+
+.tea_art .tea_art_poem .a_poet_link {
+	font-size: 1.6vw;
+	font-style: italic;
+	color: #EA6D00;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tea_art_video {
+    width: 36%;
+	max-width: 36%;
+    margin: 0; 
+    object-fit: cover;
+}
+
+
+
+/* ---------- footer block ---------- */
+footer {
+	background-color: #6EB6AC;
+}
+
+footer p {
+	font-size: 1.8vw;
+	color: #001F20;
+	font-weight: 600;
+
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-bottom: 1.5%;
+}
+
+marquee {
+	font-family: "Cormorant", serif;
+	font-weight: 600;
+	font-size: 1.5vw;
+	color: #fff;
+	margin-bottom: 1%;
+}

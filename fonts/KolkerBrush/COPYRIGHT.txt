@@ -1,0 +1,1 @@
+Copyright 2004 The Kolker Brush Project Authors (https://github.com/googlefonts/kolker-brush)

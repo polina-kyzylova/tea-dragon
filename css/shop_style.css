@@ -1,0 +1,144 @@
+/* ---------- reset ---------- */
+html, body {
+	height: 100%;
+}
+
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a:link {
+  color: #000; 
+  text-decoration: none;
+}
+a:visited {
+  color: #000; 
+  text-decoration: none;
+}
+a:hover {
+  color: #000; 
+  text-decoration: none;
+}
+a:active {
+  color: #000; 
+  text-decoration: none;
+}
+
+
+
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Kolker Brush';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/KolkerBrush/KolkerBrush-Regular.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-family: "Cormorant";
+    scr: url("../fonts/Cormorant/Cormorant-Italic.ttf") format("truetype"),
+}
+
+@font-face {
+    font-family: "Cormorant";
+    scr: url("../fonts/Cormorant/Cormorant-LightItalic.ttf") format("truetype"),
+}
+
+@font-face {
+    font-family: "Cormorant";
+    scr: url("../fonts/Cormorant/Cormorant-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cormorant";
+    scr: url("../fonts/Cormorant/Cormorant-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cormorant";
+    scr: url("../fonts/Cormorant/Cormorant-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cormorant";
+    scr: url("../fonts/Cormorant/Cormorant-Bold.ttf") format("truetype");
+}
+
+
+
+
+h1 {
+	font-family: "Cormorant", serif;
+	font-style: italic;
+	font-size: 4vw;
+}
+
+p {
+	font-family: "Cormorant", serif;
+	font-size: 2.5vw;
+}
+
+
+ /* ---------- note block ---------- */
+.note {
+	background-color: #001F20;
+	padding: 5%;
+}
+
+.note p {
+	font-size: 2vw;
+	color: white;
+	font-style: italic;
+	font-weight: 600;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	line-height: 1.6em;
+}
+
+.note span {
+	font-family: "Kolker Brush";
+	font-size: 3vw;
+	line-height: 2vw;
+	font-weight: 300;
+	margin: auto 0;
+}
+
+.adv {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.adv p {
+	color: #9CBBBC;
+	font-size: 1.5vw;
+	margin: 5px 0;
+}
+
+.adv img {
+	width: 7vw;
+	height: 7vw;
+	display: block;
+    margin: 0 auto;
+}
+
+ /* ---------- popular tea ---------- */
+.popular_tea {
+	width: 100%;
+	display: block;
+}
+
+.popular_tea h1 {
+	margin-top: 5%;
+	margin-left: 5%;
+}

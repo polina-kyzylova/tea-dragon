@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Магазин</title>
+
+		<link rel="stylesheet" type="text/css" href="css/shop_style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="img/shop.png">
+
+        <link rel="stylesheet" href="css/itc-slider.css">
+		<script src="js/itc-slider.js" defer></script>
+	</head>
+
+	<body>
+		<div class="note">
+            <p>Чайная мастерская <span>Tea Dragon</span> - это место, где вы можете погрузиться в мир чайной культуры и открыть для себя новые вкусы и ароматы чая. Эксперты нашей мастерской тщательно следят за качеством отбираемого сырья, чтобы вы получили истинное удовольствие от чаепития.</p>
+
+           <ul class="adv">
+           		<li>
+           			<img src="img/plants.png">
+           			<p class="adv">Качественная продукция</p>
+           		</li>
+           		<li>
+           			<img src="img/delivery.png">
+           			<p class="adv">Быстрая доставка</p>
+           		</li>
+           		<li>
+           			<img src="img/hotspot.png">
+           			<p class="adv">Дегустация перед покупкой</p>
+           		</li>
+           </ul>
+        </div>
+
+		<div class="popular_tea">
+			<h1>Популярные предложения</h1>
+
+			<div class="itc-slider" data-slider="itc-slider" data-autoplay="true">
+				<div class="itc-slider-wrapper">
+					<div class="itc-slider-items">
+						<div class="itc-slider-item">
+							<img src="img/popular_tea3.png">
+							<p>Чай Белый пион</p>
+							<div class="prc">
+								<h4>650 руб.</h4>
+								<select id='selectID'>
+									<option value='s'>100 гр.</option>
+									<option value='m'>200 гр.</option>
+									<option value='l'>500 гр.</option>
+								</select>
+							</div>
+							<button class="btn" id="buy3">Купить</button>
+						</div>
+
+						<div class="itc-slider-item">
+							<img src="img/popular_tea2.png">
+							<p>Чай Имбирь-лимон</p>
+							<div class="prc">
+								<h4>370 руб.</h4>
+								<select>
+									<option>100 гр.</option>
+									<option>200 гр.</option>
+									<option>500 гр.</option>
+								</select>
+							</div>
+							<button class="btn" id="buy2">Купить</button>
+						</div>
+
+						<div class="itc-slider-item">
+							<img src="img/popular_tea1.png">
+							<p>Молочный улун</p>
+							<div class="prc">
+								<h4>900 руб.</h4>
+								<select>
+									<option>100 гр.</option>
+									<option>200 гр.</option>
+									<option>500 гр.</option>
+								</select>
+							</div>
+							<button class="btn" id="buy1">Купить</button>
+						</div>
+
+						<div class="itc-slider-item">
+							<img src="img/popular_tea4.png">
+							<p>Чай Детокс</p>
+							<div class="prc">
+								<h4>390 руб.</h4>
+								<select>
+									<option>100 гр.</option>
+									<option>200 гр.</option>
+									<option>500 гр.</option>
+								</select>
+							</div>
+							<button class="btn" id="buy4">Купить</button>
+						</div>
+
+						<div class="itc-slider-item">
+							<img src="img/popular_tea5.png">
+							<p>Чай Таежный</p>
+							<div class="prc">
+								<h4>520 руб.</h4>
+								<select>
+									<option>100 гр.</option>
+									<option>200 гр.</option>
+									<option>500 гр.</option>
+								</select>
+							</div>
+							<button class="btn" id="buy5">Купить</button>
+						</div>
+					</div>
+				</div>
+
+				<button class="itc-slider-btn itc-slider-btn-prev"></button>
+				<button class="itc-slider-btn itc-slider-btn-next"></button>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			document.getElementById('buy1').onclick = function(){
+				if (confirm("Спасибо за покупку! Покинуть магазин?")) {
+				   close();
+				}
+			}
+			document.getElementById('buy2').onclick = function(){
+				if (confirm("Спасибо за покупку! Покинуть магазин?")) {
+				   close();
+				}		
+			}
+			document.getElementById('buy3').onclick = function(){
+				if (confirm("Спасибо за покупку! Покинуть магазин?")) {
+				   close();
+				}		
+			}
+			document.getElementById('buy4').onclick = function(){
+				if (confirm("Спасибо за покупку! Покинуть магазин?")) {
+				   close();
+				}		
+			}
+			document.getElementById('buy5').onclick = function(){
+				if (confirm("Спасибо за покупку! Покинуть магазин?")) {
+				   close();
+				}	
+			}
+		</script>
+	</body>
+</html>
